@@ -1,0 +1,83 @@
+<!DOCTYPEDOCTYPEDOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TẠO, QUẢN LÝ VÀ CHIA SẺ NỘI DUNG SỐ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 40px 20px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 100px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            padding: 24px;
+            margin-bottom: 30px;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat .number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        .stat .label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 12px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nội dung số</h1>
+
+        <!-- Infographic Image -->
+        <div class="card">
+			<img src="infographic.png" alt="Infographic" style="max-width: 500px; width: 100%; border-radius: 12px; display: block; margin: 0 auto;">
+		</div>
+
+        <!-- Video -->
+        <div class="card">
+            <video controls>
+                <source src="gioi-thieu-loi-ich-cong-nghe-so.mp4" type="video/mp4">
+            </video>
+			<p style="font-size:20px; text-align: center;font-weight: bold;">Video tạo bởi CapCut, tài liệu từ Pexels/FreeSound (CC0)</p>
+        </div>
+    </div>
+</body>
+</html>
